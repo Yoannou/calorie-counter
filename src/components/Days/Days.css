@@ -1,0 +1,11 @@
+.days-wrapper {
+    /* Will change to same colour as body */
+    background-color: #777;
+    min-height: 200px;
+}
+
+@media only screen and (min-width: 1200px) {
+    .days-wrapper {
+
+    }
+}

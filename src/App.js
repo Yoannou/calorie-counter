@@ -1,24 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header'
+import Nutrition from './components//Nutrition/Nutrition';
+import Days from './components/Days/Days';
+
+// Use state to create our list of days and their associated data
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header title="Calorie Log" />
+      <div className="container">
+        <Nutrition className="nutrition-wrapper"></Nutrition>
+        <Days className="daily-wrapper"></Days>
+      </div>
+    </>
   );
 }
 
