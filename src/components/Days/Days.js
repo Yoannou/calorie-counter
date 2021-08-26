@@ -8,10 +8,12 @@ const Days = () => {
     const [days, setDays] = useState([
         // A SAMPLE DAY (FROM DAY.JS)
         {
+            id: 1,
             date: 'Thursday August 11',
             entries: []
         },
         {
+            id: 2,
             date: 'Friday August 12',
             entries: []
         }
