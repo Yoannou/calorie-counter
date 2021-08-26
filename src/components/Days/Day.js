@@ -5,7 +5,7 @@ const Day = ({ key, day }) => {
 
     // Define the day's entries:
     const entries = {
-
+        
     }
 
     return (
