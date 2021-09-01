@@ -14,7 +14,7 @@ h1, h2, h3, h4 {
 @media only screen and (min-width: 1200px) {
     .container {
         grid-template-columns: 2fr 3fr;
-        width: 90%;
+        width: 98%;
         margin: 40px auto
     }
 }

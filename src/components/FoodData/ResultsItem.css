@@ -1,0 +1,12 @@
+#results-heading {
+    padding: 2px;
+    margin: 0px;
+    border-bottom: 1px solid black;
+}
+
+div .results-item {
+    padding: 0px;
+    display: grid;
+    grid-template-columns: 1fr 100px 100px 80px;/*3fr 1fr 1fr 1fr;*/
+}
+

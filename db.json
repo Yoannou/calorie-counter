@@ -1,0 +1,32 @@
+{
+    "days": [
+        {
+            "id": 1,
+            "date": "Friday August 27",
+            "foods": [
+                {
+                    "name": "eggs",
+                    "amount": "2",
+                    "calories": 100
+                },
+                {
+                    "name": "bread",
+                    "amount": "2",
+                    "calories": 220
+                }
+            ] 
+        },
+        {
+            "id": 2,
+            "date": "Saturday August 28",
+            "foods": [
+                {
+                    "name": "cereal",
+                    "amount": "200g",
+                    "calories": 300
+                }
+            ]
+
+        }
+    ]
+}

@@ -1,6 +1,10 @@
 .day {
     min-height: 20px;
     background-color: black;
-    color: pink;
+    color: #fff;
     margin-bottom: 20px;
+}
+
+.entryTopRow {
+    border-bottom: 1px solid white;
 }

@@ -1,4 +1,4 @@
-import './App.css';
+// This is not a real file, just an idea of structure
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
         <ul className="days">
           <li className="day">
             <div className="day-top-bar"></div>
-            <div className="day-details">
+            <div className="day-details"> DEFAULT OF THIS IS HIDDEN
               <ul className="food-entires">
                 <li className="food-entry">
                   <div className="food-entry-name">eggs</div>

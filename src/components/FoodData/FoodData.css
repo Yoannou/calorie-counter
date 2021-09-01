@@ -1,9 +1,9 @@
-.nutrition-wrapper {
+.data-wrapper {
     background-color: #ccc;
     min-height: 200px;
 }
 
 @media only screen and (min-width: 1200px) {
-    .nutrition-wrapper {
+    .data-wrapper {
     }
 }
