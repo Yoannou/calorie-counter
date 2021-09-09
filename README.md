@@ -37,8 +37,15 @@ To run the json server use: npm run server
 This will run the 'server' command in package.json
 
 # TO DEPLOY
-- Build the project using npm run build
-- Copy the contents of the build folder (build/.) to the www/calorie-build folder on the apache server
+
+- npm run build
+- ./deploy.sh
 - Simply type calorie-build as a url
+
+(
+./deploy:
+Empties calorie-build folder with rm www/calorie-build/*
+Copies the contents of the build folder (build/.) to the www/calorie-build folder on the apache server
+)
 
 Must eventually replace the simple JSON server (with db.json) with a proper MySQL server, with a PHP backend that converts the database to a JSON file which can then be parsed by Javascript within React.
